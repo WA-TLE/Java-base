@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="单例模式的三种实现">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/test/singleton01/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/test/singleton01/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread01/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread01/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread02/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread02/RunnableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread03/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread03/MyCallable.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,22 +47,25 @@
     </option>
   </component>
   <component name="ProjectId" id="2Z7ldnEoYhNK6lQMD8B3Kx0dL2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/WorkSpace/Java-base/thread01/src/main/java/com/dy/thread03",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20862068",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/Java-base&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20862068&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\Java-base\thread01\src\main\java\com\dy\thread03" />
@@ -56,7 +76,7 @@
       <recent name="com.dy.thread01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.ParityPrinter">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dy.thread03.CallableDemo" />
       <module name="thread01" />
@@ -76,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dy.guard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParityPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dy.thread.thread04.ParityPrinter" />
+      <module name="thread01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dy.thread.thread04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParityPrinter" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.RunnableDemo" />
@@ -141,11 +175,87 @@
       <workItem from="1713925785295" duration="3417000" />
       <workItem from="1719131413687" duration="1209000" />
       <workItem from="1719143621664" duration="2000" />
-      <workItem from="1725151090296" duration="6848000" />
+      <workItem from="1725151090296" duration="13798000" />
+      <workItem from="1725261816600" duration="29000" />
+      <workItem from="1725716790578" duration="1188000" />
+      <workItem from="1725752410496" duration="1494000" />
     </task>
+    <task id="LOCAL-00001" summary="Java 基础回顾">
+      <created>1725180567178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725180567178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="多线程基础回顾&#10;&#10;线程的创建方式">
+      <created>1725180594278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725180594278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="单例模式的三种实现">
+      <created>1725186061749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725186061749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java 基础回顾" />
+    <MESSAGE value="多线程基础回顾&#10;&#10;线程的创建方式" />
+    <MESSAGE value="单例模式的三种实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式的三种实现" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
+          <line>12</line>
+          <properties class="com.dy.thread.thread04.ParityPrinter" method="printOdd">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
+          <line>16</line>
+          <properties class="com.dy.thread.thread04.ParityPrinter" method="printEven">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
