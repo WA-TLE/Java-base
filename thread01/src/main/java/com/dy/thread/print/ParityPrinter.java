@@ -1,4 +1,4 @@
-package com.dy.thread.thread04;
+package com.dy.thread.print;
 
 public class ParityPrinter {
     private final int max;

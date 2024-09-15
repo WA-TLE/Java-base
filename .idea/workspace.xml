@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="电影院卖回顾票问题&#10;&#10;解决超卖">
-      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" afterDir="false" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="使用 Lock 来实现">
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/practice/sellticket/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/practice/sellticket/SellTicketDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread01/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread01/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread01/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread01/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread02/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread02/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread02/RunnableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread02/RunnableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread03/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread03/CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread03/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/create/thread03/MyCallable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +75,7 @@
       <recent name="com.dy.thread01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SellTicketDemo">
+  <component name="RunManager" selected="Application.com.dy.thread.practice.sellticket.SellTicketDemo">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dy.thread03.CallableDemo" />
       <module name="thread01" />
@@ -95,24 +103,11 @@
       </method>
     </configuration>
     <configuration name="ParityPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dy.thread.thread04.ParityPrinter" />
+      <option name="MAIN_CLASS_NAME" value="com.dy.thread.print.ParityPrinter" />
       <module name="thread01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dy.thread.thread04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dy.thread02.RunnableDemo" />
-      <module name="thread01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dy.thread02.*" />
+          <option name="PATTERN" value="com.dy.thread.print.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.dy.thread.practice.sellticket.SellTicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dy.thread.practice.sellticket.SellTicketDemo" />
+      <module name="thread01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dy.thread.practice.sellticket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua.exe" />
       <option name="file" value="" />
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.dy.thread.practice.sellticket.SellTicketDemo" />
         <item itemvalue="Application.SellTicketDemo" />
         <item itemvalue="Application.ParityPrinter" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.RunnableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +183,7 @@
       <workItem from="1726060022453" duration="55000" />
       <workItem from="1726319357729" duration="1431000" />
       <workItem from="1726368333433" duration="299000" />
-      <workItem from="1726403536090" duration="2358000" />
+      <workItem from="1726403536090" duration="5010000" />
     </task>
     <task id="LOCAL-00001" summary="Java 基础回顾">
       <created>1725180567178</created>
@@ -212,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726405329013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="使用 Lock 来实现">
+      <created>1726405942471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726405942471</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +250,8 @@
     <MESSAGE value="单例模式的三种实现" />
     <MESSAGE value="测试提交" />
     <MESSAGE value="电影院卖回顾票问题&#10;&#10;解决超卖" />
-    <option name="LAST_COMMIT_MESSAGE" value="电影院卖回顾票问题&#10;&#10;解决超卖" />
+    <MESSAGE value="使用 Lock 来实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 Lock 来实现" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.dy.thread.thread01;
+package com.dy.thread.create.thread01;
 
 /**
  * @Author: dy
