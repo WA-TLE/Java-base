@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="单例模式的三种实现">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java" afterDir="false" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="测试提交">
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicketDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/test/singleton01/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/test/singleton01/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/guard/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread01/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread01/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread02/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread02/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread03/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread01/target/classes/com/dy/thread03/MyCallable.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +53,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20862068&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\Java-base\thread01\src\main\java\com\dy\thread03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Java-base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dy.test.singleton03.singleton01" />
@@ -76,7 +69,7 @@
       <recent name="com.dy.thread01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParityPrinter">
+  <component name="RunManager" selected="Application.SellTicketDemo">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dy.thread03.CallableDemo" />
       <module name="thread01" />
@@ -129,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dy.thread01.ThreadDemo" />
+    <configuration name="SellTicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dy.thread.sellticket.SellTicketDemo" />
       <module name="thread01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dy.thread02.*" />
+          <option name="PATTERN" value="com.dy.thread.sellticket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SellTicketDemo" />
         <item itemvalue="Application.ParityPrinter" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.RunnableDemo" />
-        <item itemvalue="Application.ThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +171,13 @@
       <workItem from="1725151090296" duration="13798000" />
       <workItem from="1725261816600" duration="29000" />
       <workItem from="1725716790578" duration="1188000" />
-      <workItem from="1725752410496" duration="1494000" />
+      <workItem from="1725752410496" duration="2942000" />
+      <workItem from="1725880943912" duration="599000" />
+      <workItem from="1725965337679" duration="1876000" />
+      <workItem from="1726060022453" duration="55000" />
+      <workItem from="1726319357729" duration="1431000" />
+      <workItem from="1726368333433" duration="299000" />
+      <workItem from="1726403536090" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="Java 基础回顾">
       <created>1725180567178</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725186061749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试提交">
+      <created>1725755069463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725755069463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,40 +228,7 @@
     <MESSAGE value="Java 基础回顾" />
     <MESSAGE value="多线程基础回顾&#10;&#10;线程的创建方式" />
     <MESSAGE value="单例模式的三种实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式的三种实现" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
-          <line>12</line>
-          <properties class="com.dy.thread.thread04.ParityPrinter" method="printOdd">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/thread04/ParityPrinter.java</url>
-          <line>16</line>
-          <properties class="com.dy.thread.thread04.ParityPrinter" method="printEven">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="测试提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
   </component>
 </project>
