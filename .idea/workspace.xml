@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="测试提交">
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicketDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="电影院卖回顾票问题&#10;&#10;解决超卖">
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/sellticket/SellTicket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <workItem from="1726060022453" duration="55000" />
       <workItem from="1726319357729" duration="1431000" />
       <workItem from="1726368333433" duration="299000" />
-      <workItem from="1726403536090" duration="1707000" />
+      <workItem from="1726403536090" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary="Java 基础回顾">
       <created>1725180567178</created>
@@ -207,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725755069463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="电影院卖回顾票问题&#10;&#10;解决超卖">
+      <created>1726405329013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726405329013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +234,8 @@
     <MESSAGE value="多线程基础回顾&#10;&#10;线程的创建方式" />
     <MESSAGE value="单例模式的三种实现" />
     <MESSAGE value="测试提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试提交" />
+    <MESSAGE value="电影院卖回顾票问题&#10;&#10;解决超卖" />
+    <option name="LAST_COMMIT_MESSAGE" value="电影院卖回顾票问题&#10;&#10;解决超卖" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
