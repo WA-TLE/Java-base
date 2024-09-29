@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="继承 Thread + Lock 来实现卖票&#10;&#10;解决超卖问题">
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/print/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/wait_and_notify/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/wait_and_notify/MyThread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/wait_and_notify/MyThread02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/wait_and_notify/ThreadWaitAndNotify.java" afterDir="false" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="wait 和 notify 练习使用">
+      <change afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/print/MyPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/print/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/thread/print/PrintNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <recent name="com.dy.thread01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MyPrint">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dy.thread.wait_and_notify.Main" />
       <module name="thread01" />
@@ -87,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParityPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dy.thread.print.ParityPrinter" />
+    <configuration name="MyPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dy.thread.print.MyPrint" />
       <module name="thread01" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyPrint" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ThreadWaitAndNotify" />
         <item itemvalue="Application.com.dy.thread.practice.sellticket.SellTicketDemo" />
         <item itemvalue="Application.SellTicketDemo" />
-        <item itemvalue="Application.ParityPrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +179,9 @@
       <workItem from="1726319357729" duration="1431000" />
       <workItem from="1726368333433" duration="299000" />
       <workItem from="1726403536090" duration="5678000" />
-      <workItem from="1726633588055" duration="3837000" />
+      <workItem from="1726633588055" duration="6213000" />
+      <workItem from="1726713918990" duration="599000" />
+      <workItem from="1727426225881" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="Java 基础回顾">
       <created>1725180567178</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726413762328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="wait 和 notify 练习使用">
+      <created>1726660920436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726660920436</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +264,8 @@
     <MESSAGE value="电影院卖回顾票问题&#10;&#10;解决超卖" />
     <MESSAGE value="使用 Lock 来实现" />
     <MESSAGE value="继承 Thread + Lock 来实现卖票&#10;&#10;解决超卖问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="继承 Thread + Lock 来实现卖票&#10;&#10;解决超卖问题" />
+    <MESSAGE value="wait 和 notify 练习使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait 和 notify 练习使用" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
