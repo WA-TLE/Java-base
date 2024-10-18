@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="自己方式实现奇偶线程打印">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8a428809-a760-4396-9c98-2a857996f682" name="Changes" comment="ACW 题目练习&#10;&#10;5407 管道">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread01/src/main/java/com/dy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread01/src/main/java/com/dy/Main.java" afterDir="false" />
     </list>
@@ -182,7 +181,8 @@
       <workItem from="1726633588055" duration="6213000" />
       <workItem from="1726713918990" duration="599000" />
       <workItem from="1727426225881" duration="869000" />
-      <workItem from="1727581324829" duration="4441000" />
+      <workItem from="1727581324829" duration="5115000" />
+      <workItem from="1727659803351" duration="2173000" />
     </task>
     <task id="LOCAL-00001" summary="Java 基础回顾">
       <created>1725180567178</created>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727581368547</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ACW 题目练习&#10;&#10;5407 管道">
+      <created>1727614470430</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727614470430</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +281,8 @@
     <MESSAGE value="继承 Thread + Lock 来实现卖票&#10;&#10;解决超卖问题" />
     <MESSAGE value="wait 和 notify 练习使用" />
     <MESSAGE value="自己方式实现奇偶线程打印" />
-    <option name="LAST_COMMIT_MESSAGE" value="自己方式实现奇偶线程打印" />
+    <MESSAGE value="ACW 题目练习&#10;&#10;5407 管道" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACW 题目练习&#10;&#10;5407 管道" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
